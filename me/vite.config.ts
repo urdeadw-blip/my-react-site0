@@ -6,7 +6,7 @@ import { miaodaDevPlugin } from "miaoda-sc-plugin";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',  // <--- أضف هذا السطر (الأهم!)
+  base: './',  // <--- السطر ده اللي هيحل كل المشاكل!
   plugins: [react(), svgr({
       svgrOptions: {
         icon: true,
